@@ -1,2 +1,21 @@
 # atividades-python
 Projeto para praticar exercícios de Python
+ tartaruga de importação
+
+t  =  tartaruga . Tartaruga ()
+s  =  tartaruga . Tela ()
+
+cores  = [ "roxo" , "vermelho" , "laranja" , "amarelo" , "azul" , "magenta" , "ciano" , "branco" , "preto" , "vermelho" , "roxo" ]
+s . bgcolor ( "marrom" )
+
+t . tamanho da caneta ( 2 )
+t . velocidade ( 0 )
+
+para  x  no  intervalo ( 360 ):
+    t . pencolor ( cores [ x  %  len ( cores )])
+    t . largura ( x  //  100  +  1 )
+    t . para frente ( x )
+    t . right ( 59 )   # ângulo arbitrário para criar o padrão espiralado
+
+t . hideturtle ()
+tartaruga . feito ()
